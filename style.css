@@ -1,0 +1,45 @@
+/* html {
+  height: 100%;
+  width: 100%;
+} */
+@font-face{
+  font-family: spiderman;
+  src: url("font/PressStartK-EX89.ttf");
+}
+*{
+  font-family: spiderman;
+  color: #1d449f;
+}
+body{
+  background-color: #afd6f8;
+}
+.zoom {
+  padding: 50px;
+  /* background-color: green; */
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  /* height: 200px; */
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.collagec{
+  width: 700px;
+  /* text-align: left; */
+}
+.evelync{
+  width: 700px;
+}
+.elic{
+  width: 700px;
+}
+.roomc{
+  width: 700px;
+}
+.stilllife{
+  width: 700px;
+}
+.flower{
+  width: 700px;
+}
