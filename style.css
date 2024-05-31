@@ -43,9 +43,14 @@ body{
 .flower{
   width: 700px;
 }
-h2{
+
+/* h2{
   color: #092a77;
 }
 #welcome{
   color: #1d449f;
+} */
+
+#start:hover {
+  color: #3e72ea;
 }
